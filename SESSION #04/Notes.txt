@@ -1,0 +1,70 @@
+Row Major
+Address of A(I,J) = Base Address(B) + Size of Element(s) * ((I-I0)*C+(J-J0))
+
+Column Major
+Address of A(I,J) = Base Address(B) + Size of Element(s) * ((I-I0)+R*(J-J0))
+
+Where
+S -> in bytes
+I0 -> Starting Row
+J0 -> Starting Column
+C -> No of Columns
+R -> No of Rows
+
+Q. An array X[15][25] is allocated memory with each element occupying 6 bytes of storage. 
+If the Base Address of X is 2500, find the address of X[10][20] if the array is stored along the row.
+
+ANS. Address of X[10][20] = 2500 + 6*((10-0)*25 + (20-0)) = 4120
+
+Q. An array A[30][40] is stored along the column with each element occupying 4 bytes of storage. If A[10][20] is stored at 7200, find the address of A[20][25].
+
+ANS. Let the Base Address be B.
+7200 = B + 4*((10-0)+(20-0)*30)
+Then, B = 7200 - 4*610 = 4760
+Address of A[20][25] = 4760 + 4*((20-0) + (25-0)*30) = 7840
+
+A Matrix is SPARSE if it contains more than half 0s.
+
+1 2 3
+1 0 0
+4 5 6
+No
+
+1 0 0
+0 0 1
+0 2 3
+Yes
+
+H/W:
+1. Address Calculation
+2. void INNER_SHELL(int ** A, int R, int C)
+3. void OUTER_SHELL(int ** A, int R, int C)
+
+How many equations? 5
+Maximum Degree? 4
+
+5 X 4
+
+Equation 1:
+Coefficient of Power 3 -> ?
+Coefficient of Power 2 -> ?
+Coefficient of Power 1 -> ?
+Coefficient of Power 0 -> ?
+
+Equation 2:
+Coefficient of Power 3 -> ?
+Coefficient of Power 2 -> ?
+Coefficient of Power 1 -> ?
+Coefficient of Power 0 -> ?
+
+Equation 3:
+Coefficient of Power 3 -> ?
+Coefficient of Power 2 -> ?
+Coefficient of Power 1 -> ?
+Coefficient of Power 0 -> ?
+
+Equation 4:
+Coefficient of Power 3 -> ?
+Coefficient of Power 2 -> ?
+Coefficient of Power 1 -> ?
+Coefficient of Power 0 -> ?
