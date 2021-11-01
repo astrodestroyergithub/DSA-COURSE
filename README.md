@@ -36,7 +36,7 @@ _(i)_ Insert by Position:
 -----------------------------
 _(iii)_ Delete by Position:
 -----------------------------
-    		Position: -1
+    Position: -1
 	Output: Cannot Delete
 	A --> 10, 20, 30, 40, 5
 -----------------------------
