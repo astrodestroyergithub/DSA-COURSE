@@ -92,7 +92,7 @@ _**Problem 1:**_ Implement an array Stack with the undermentioned function
 * void POP(struct Stack * X)
 * void PEEK(struct Stack * X)
 * void DISPLAY(struct Stack * X)
-_The structure of the stack will be as follows:_
+The structure of the stack will be as follows:
 typedef struct Stack
 {
     int * A;
@@ -105,7 +105,7 @@ _**Problem 2:**_ Implement an array Queue with the undermentioned functions
 * void DEQUEUE(struct Queue * Q)
 * void PEEK(struct Queue * Q)
 * void DISPLAY(struct Queue * Q)
-_The structure of the queue will be as follows:_
+The structure of the queue will be as follows:
 typedef struct Queue
 {
     int * A;
@@ -126,7 +126,7 @@ _Information:_ In a DeQueue, insertion and deletion can happen both from the fro
 * void InsertAtRear(struct Queue * Q, int V)
 * void PEEK(struct Queue * Q)
 * void DISPLAY(struct Queue * Q)
-_The structure of the DeQueue will be as follows:_
+The structure of the DeQueue will be as follows:
 typedef struct Queue
 {
     int * A;
