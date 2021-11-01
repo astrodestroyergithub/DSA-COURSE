@@ -87,7 +87,7 @@ _**N.B.**_ No need to design a menu-driven program. You can swing at your own fl
 
 ## Session 5:
 
-_**Problem:**_ Implement an array Stack with the undermentioned function
+_**Problem 1:**_ Implement an array Stack with the undermentioned function
 * void PUSH(struct Stack * X, int VALUE)
 * void POP(struct Stack * X)
 * void PEEK(struct Stack * X)
@@ -100,7 +100,7 @@ typedef struct Stack
     int Capacity;
 };
 
-_**Problem:**_ Implement an array Queue with the undermentioned functions
+_**Problem 2:**_ Implement an array Queue with the undermentioned functions
 * void ENQUEUE(struct Queue * Q, int V)
 * void DEQUEUE(struct Queue * Q)
 * void PEEK(struct Queue * Q)
@@ -136,3 +136,6 @@ typedef struct Queue
 };
 
 _**N.B.**_ Make the program menu-driven.
+
+## Credits:
+* https://guides.github.com/features/mastering-markdown/
