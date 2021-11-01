@@ -92,7 +92,8 @@ _**Problem 1:**_ Implement an array Stack with the undermentioned function
 * void POP(struct Stack * X)
 * void PEEK(struct Stack * X)
 * void DISPLAY(struct Stack * X)
-</br>The structure of the stack will be as follows:
+
+The structure of the stack will be as follows:
 typedef struct Stack
 {
     int * A;
@@ -105,7 +106,8 @@ _**Problem 2:**_ Implement an array Queue with the undermentioned functions
 * void DEQUEUE(struct Queue * Q)
 * void PEEK(struct Queue * Q)
 * void DISPLAY(struct Queue * Q)
-</br>The structure of the queue will be as follows:
+
+The structure of the queue will be as follows:
 typedef struct Queue
 {
     int * A;
@@ -126,7 +128,8 @@ _Information:_ In a DeQueue, insertion and deletion can happen both from the fro
 * void InsertAtRear(struct Queue * Q, int V)
 * void PEEK(struct Queue * Q)
 * void DISPLAY(struct Queue * Q)
-</br>The structure of the DeQueue will be as follows:
+
+The structure of the DeQueue will be as follows:
 typedef struct Queue
 {
     int * A;
@@ -136,6 +139,14 @@ typedef struct Queue
 };
 
 _**N.B.**_ Make the program menu-driven.
+
+## Others
+_The other notable important programs included in this repo are:_
+* G.C.D. of 2 numbers
+* Patterns problems
+* Product of 2 matrices
+* Spiral of a square matrix
+* Sum and difference of equations
 
 ## Credits:
 * https://guides.github.com/features/mastering-markdown/
