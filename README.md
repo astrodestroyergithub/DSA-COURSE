@@ -49,3 +49,31 @@ _**The functions which we have to make use of are:**_
 
 _**N.B.**_ Create a menu driven program which will prompt the user to enter a choice based upon the menu and perform it accordingly. Loop the entire program until the user explicitly chooses to exit.
 
+## Session 2:
+
+_**The 2 types of code were explained in the class:**_
+!. Program to print the diagonals of a matrix, and the transpose of the matrix
+2. Program to merge 2 arrays: 
+* The 2 arrays were sorted first before merging
+* The final array is formed by sequentially comparing the array elements of the 2 small arrays
+
+_**The function definitions of the 2 programs to merge 2 arrays:**_
+* int * mergeSorted(int * A, int N1, int * B, int N2)
+* int * mergeSequential(int * A, int N1, int * B, int N2) 
+
+_**N.B.**_ Create a menu driven program that allows the user to choose what type of merge to use i.e. **Sorted Merge** or **Sequential Merge**.
+
+## Session 3:
+
+_**Problem 1:**_ Design a menu-driven C program to implement the underlying functions
+* int ** CREATE_SYMMETRIC_MATRIX(int ** A, int R) 
+* int ** CREATE_SKEW_SYMMETRIC_MATRIX(int ** A, int R) 
+* int CHECK_SYMMETRIC(int ** A, int R) 
+* int CHECK_SKEW_SYMMETRIC(int ** A, int R) 
+
+_**Problem 2:**_ Desin a menu-driven C program to implement the underlying functions
+* void SUM(int ** A, int ** B, int R, int C) 
+* int ** DIFFERENCE(int ** A, int ** B, int R, int C)
+
+_**N.B.**_ The programs should be completely menu-driven with each case denoting each function's use.
+
