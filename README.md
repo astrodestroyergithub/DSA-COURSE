@@ -1,4 +1,4 @@
-# DSA-Course
+# DSA-Course by Mr. Dipanjan Sarkar
 
 The following are the details of what has been actually covered in each of the sessions.
 
@@ -77,3 +77,62 @@ _**Problem 2:**_ Desin a menu-driven C program to implement the underlying funct
 
 _**N.B.**_ The programs should be completely menu-driven with each case denoting each function's use.
 
+## Session 4:
+
+_**Problem:**_ Engineer a C program that prints the inner shell and outer shell of a square matrix. The function definitions of the functions to be used are given below.
+* void INNER_SHELL(int ** A, int ** B, int C)
+* void OUTER_SHELL(int ** A, int ** B, int C)
+
+_**N.B.**_ No need to design a menu-driven program. You can swing at your own flexibility.
+
+## Session 5:
+
+_**Problem:**_ Implement an array Stack with the undermentioned function
+* void PUSH(struct Stack * X, int VALUE)
+* void POP(struct Stack * X)
+* void PEEK(struct Stack * X)
+* void DISPLAY(struct Stack * X)
+_The structure of the stack will be as follows:_
+typedef struct Stack
+{
+    int * A;
+    int Top;
+    int Capacity;
+};
+
+_**Problem:**_ Implement an array Queue with the undermentioned functions
+* void ENQUEUE(struct Queue * Q, int V)
+* void DEQUEUE(struct Queue * Q)
+* void PEEK(struct Queue * Q)
+* void DISPLAY(struct Queue * Q)
+_The structure of the queue will be as follows:_
+typedef struct Queue
+{
+    int * A;
+    int Front;
+    int Rear;
+    int Capacity;
+};
+
+_**N.B.**_ Design menu-driven programs for each of the data structures, where each of the case corresponds to each of the methods listed under each problem.
+
+## Session 6:
+
+_**Problem:**_ Implementation of a DeQueue a.k.a. Double-Ended Queue
+_Information:_ In a DeQueue, insertion and deletion can happen both from the front as well as rear (unlike a normal Queue). Implement the following functions for the DeQueue.
+* void DeleteFromRear(struct Queue * Q)
+* void InsertAtFront(struct Queue * Q, int V)
+* void DeleteFromFront(struct Queue * Q)
+* void InsertAtRear(struct Queue * Q, int V)
+* void PEEK(struct Queue * Q)
+* void DISPLAY(struct Queue * Q)
+_The structure of the DeQueue will be as follows:_
+typedef struct Queue
+{
+    int * A;
+    int Front;
+    int Rear;
+    int Capacity;
+};
+
+_**N.B.**_ Make the program menu-driven.
