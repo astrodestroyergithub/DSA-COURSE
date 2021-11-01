@@ -2,7 +2,7 @@
 
 The following are the details of what has been actually covered in each of the sessions.
 
-###### Session 1:
+## Session 1:
 
 _**The undermentioned functionalities were taught in the rescheduled session:**_
 1. Insertion of an element in an array in a specific position
