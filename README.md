@@ -26,26 +26,26 @@ _(i)_ Insert by Position:
 -----------------------------
   _(ii)_ Delete by Value:
 -----------------------------
-		Value: ? 45
-		Output: Not Found
-		A --> 10, 7, 20, 30, 40, 5
+	Value: ? 45
+	Output: Not Found
+	A --> 10, 7, 20, 30, 40, 5
 		
-		Value: ? 7
-		Output: Deleted
-		A --> 10, 20, 30, 40, 5
+	Value: ? 7
+	Output: Deleted
+	A --> 10, 20, 30, 40, 5
 -----------------------------
 _(iii)_ Delete by Position:
 -----------------------------
-    Position: -1
-		Output: Cannot Delete
-		A --> 10, 20, 30, 40, 5
+    	Position: -1
+	Output: Cannot Delete
+	A --> 10, 20, 30, 40, 5
 -----------------------------
 
 _**The functions which we have to make use of are:**_
-void INSERT(int *A, int VALUE, int POSITION);
-void DELETE_BY_VALUE(int *A, int VALUE);
-void DELETE_BY_POSITION(int *A, int POSITION);
-void DISPLAY(int *A)
+I. void INSERT(int *A, int VALUE, int POSITION);
+II. void DELETE_BY_VALUE(int *A, int VALUE);
+III. void DELETE_BY_POSITION(int *A, int POSITION);
+IV. void DISPLAY(int *A)
 
 _**N.B.**_ Create a menu driven program which will prompt the user to enter a choice based upon the menu and perform it accordingly. Loop the entire program until the user explicitly chooses to exit.
 
