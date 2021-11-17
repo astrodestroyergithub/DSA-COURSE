@@ -140,6 +140,21 @@ typedef struct Queue
 
 _**N.B.**_ Make the program menu-driven.
 
+## Session 7:
+
+_**Problem:**_ Create a linked list using the following Node, marking the ending and beginning Node.
+
+```
+Node ->
+int id
+float salary
+```
+_InformationL:_ A linked list is a collection of notes, where each node points to another in a orderly manner. A linked list is also known as a collection of similar nodes.
+
+![Visual representation of Linked List](https://github.com/astrodestroyergithub/AstroWeb/blob/master/static/media/garung.767669.png)
+
+_**N.B.**_ This is an elementary representation of linked list.
+
 ## Others
 _The other notable important programs included in this repo are:_
 * G.C.D. of 2 numbers
