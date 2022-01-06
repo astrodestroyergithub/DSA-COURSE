@@ -180,7 +180,9 @@ _**N.B.**_ A menu-driven program show have the following methods for manipulatin
 * void sortList(struct Node ** start)
 * void reverseList(struct Node ** start, struct Node ** start2)
 
-## Session 10: Use Linked List to find sum of 2 polynomials.
+## Session 10: 
+
+_**Problem:**_ Use Linked List to find sum of 2 polynomials.
 
 * For same length lists
 ```
@@ -227,5 +229,6 @@ _The other notable important programs included in this repo are:_
 * Spiral of a square matrix
 * Sum and difference of equations
 
-## Credits:
+## Useful Links:
 * https://guides.github.com/features/mastering-markdown/
+* https://www.youtube.com/playlist?list=PLwG71Wli1HhYCuSM6Hstcez5qipf2G3tE
