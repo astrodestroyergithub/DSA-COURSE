@@ -155,6 +155,70 @@ _InformationL:_ A linked list is a collection of notes, where each node points t
 
 _**N.B.**_ This is an elementary representation of linked list.
 
+## Session 8 & 9:
+
+_**Problem:**_ More discussions on linked list. What are the operations which we can perform on a linked list.
+
+Some of the common operations are mentioned below:
+```
+1. Insertion of a Node
+2. Deletion of a Node
+3. Traversing the Linked List
+4. Sorting the Linked List
+5. Reversing the Linked List
+```
+_**N.B.**_ A menu-driven program show have the following methods for manipulating the Linked List:
+* void insertAtStart(struct Node ** start, int value)
+* void insertAtEnd(struct Node ** start, int value)
+* void insertAtAnyPosition(int aftervalue, struct Node ** start, struct Node ** newNode)
+* void printEnd(struct Node ** start)
+* void Traverse(struct Node ** start) 
+* int Search(struct Node ** start, int val) 
+* void deleteAtStart(struct Node ** start)
+* void deleteAtEnd(struct Node ** start)
+* void deleteFromAnyPosition(int value, struct Node ** start)
+* void sortList(struct Node ** start)
+* void reverseList(struct Node ** start, struct Node ** start2)
+
+## Session 10: Use Linked List to find sum of 2 polynomials.
+
+* For same length lists
+```
+void sumof2polynomials(struct Node ** h1, struct Node ** h2)
+```
+
+* For different length lists
+```
+void sumof2polynomials(struct Node ** h1, struct Node ** h2)
+```
+
+## Session 11 & 12: 
+
+_**Problem:**_ Create a Doubly-Ended Linked List and perform modification using functions.
+
+_**Information:**_ A doubly linked list is a linked data structure that consists of a set of sequentially linked records called nodes. Each node contains three fields: two link fields (references to the previous and to the next node in the sequence of nodes) and one data field. The beginning and ending nodes' previous and next links, respectively, point to some kind of terminator, typically a sentinel node or null, to facilitate traversal of the list. If there is only one sentinel node, then the list is circularly linked via the sentinel node. It can be conceptualized as two singly linked lists formed from the same data items, but in opposite sequential orders.
+
+Some of the common operations to be performed on the doubly-ended linked list are mentioned below:
+```
+1. Insertion of a Node
+2. Deletion of a Node
+3. Traversing the Linked List
+4. Sorting the Linked List
+5. Reversing the Linked List
+```
+_**N.B.**_ A menu-driven program show have the following methods for manipulating the Linked List:
+* void insertAtStart(struct Node ** start, int value)
+* void insertAtEnd(struct Node ** start, int value)
+* void insertAtAnyPosition(int aftervalue, struct Node ** start, struct Node ** newNode)
+* void printEnd(struct Node ** start)
+* void Traverse(struct Node ** start) 
+* int Search(struct Node ** start, int val) 
+* void deleteAtStart(struct Node ** start)
+* void deleteAtEnd(struct Node ** start)
+* void deleteFromAnyPosition(int value, struct Node ** start)
+* void sortList(struct Node ** start)
+* void reverseList(struct Node ** start, struct Node ** start2)
+
 ## Others
 _The other notable important programs included in this repo are:_
 * G.C.D. of 2 numbers
