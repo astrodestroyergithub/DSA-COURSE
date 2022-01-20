@@ -23,7 +23,7 @@ void show(struct Node ** start)
 	printf("\n");
 }
 
-void deleteFromDoublyList(struct Node ** start, int value)
+void deleteFromCircularList(struct Node ** start, int value)
 {
 	int found = 0;
 	struct Node * Y = *start;
@@ -52,7 +52,7 @@ void deleteFromDoublyList(struct Node ** start, int value)
 	printf("Deleted!\n");
 }
 
-void insertIntoDoublyList(struct Node ** start, int value)
+void insertIntoCircularList(struct Node ** start, int value)
 {
 	struct Node * t = (struct Node *)malloc(sizeof(struct Node *));
 	struct Node * x = *start;
@@ -89,12 +89,12 @@ int main()
 			case 1:
 				printf("Enter the value: ");
 				scanf("%d",&value);
-				insertIntoDoublyList(&start,value);
+				insertIntoCircularList(&start,value);
 				break;
 			case 2:
 				printf("Enter the value: ");
 				scanf("%d",&value);
-				deleteFromDoublyList(&start,value);
+				deleteFromCircularList(&start,value);
 				break;
 			case 3:
 				show(&start);
