@@ -221,6 +221,42 @@ _**N.B.**_ A menu-driven program show have the following methods for manipulatin
 * void sortList(struct Node ** start)
 * void reverseList(struct Node ** start, struct Node ** start2)
 
+## Session 13:
+
+_**Problem:**_ Create a Circular Linked List and a Doubly-Circular Linked List and perform modification using functions.
+
+_**Information:**_ 
+
+_Circular Linked List:_ A circular linked list is a variation of a linked list in which the last node points to the first node, completing a full circle of nodes. In other words, this variation of the linked list doesn't have a null element at the end.
+
+Some of the common operations to be performed on the circular linked list are mentioned below:
+```
+1. Insertion of a Node
+2. Deletion of a Node
+3. Showing the Circular List
+```
+_**N.B.**_ A menu-driven program show have the following methods for manipulating the Circular Linked List:
+* void insertIntoCircularList(struct Node ** start, int value)
+* void deleteFromCircularList(struct Node ** start, int value)
+* void show(struct Node ** start)
+
+_Doubly-Circular Linked List:_ A Doubly Circular Linked List is a data structure that has properties of both Circular Linked List and Doubly Linked List.
+
+Some of the common operations to be performed on the doubly-circular linked list are mentioned below:
+```
+1. Insertion of a Node
+2. Deletion of a Node
+3. Showing the Doubly Circular List
+```
+_**N.B.**_ A menu-driven program show have the following methods for manipulating the Circular Linked List:
+* void insertIntoCircularDoublyList(struct Node ** start, int value)
+* void deleteFromCircularDoublyList(struct Node ** start, int value)
+* void show(struct Node ** start)
+
+## Session 14: 
+
+_**Problem:**_ Understanding the Tree Data Structure.
+
 ## Others
 _The other notable important programs included in this repo are:_
 * G.C.D. of 2 numbers
