@@ -257,6 +257,17 @@ _**N.B.**_ A menu-driven program show have the following methods for manipulatin
 
 _**Problem:**_ Understanding the Tree Data Structure.
 
+_Structure of Progression:_ Trees - Binary Tree and BST.
+1. Creation of Binary Tree
+2. Traversal in a Binary Tree - Preorder, Inorder, Postorder
+3. Searching in a Binary Tree
+4. Inserting a Node in a Binary Tree
+5. Deleting a Node from a Binary Tree
+6. Creation of a BST
+7. Searching in a BST
+8. Inserting a Node in a BST
+9. Deleting a Node from a BST
+
 ## Others
 _The other notable important programs included in this repo are:_
 * G.C.D. of 2 numbers
